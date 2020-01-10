@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import STodoWrapper from './components/STodoWrapper';
+import MapWrapper from './components/mapcomp/MapWrapper';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <STodoWrapper></STodoWrapper>
+      <MapWrapper></MapWrapper>
     </div>
   );
 }
